@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of TDWebService.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/abhimanu jindal/TDWebService",
+  "homepage": "https://github.com/trident10/TDWebService",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,13 @@
     "abhimanu jindal": "abhimanyujindal10@gmail.com"
   },
   "source": {
-    "git": "https://github.com/abhimanu jindal/TDWebService.git",
+    "git": "https://github.com/trident10/TDWebService.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TDWebService/Classes/**/*",
+  "source_files": "TDWebService/TDWebService/Classes/**/*",
   "dependencies": {
     "ReachabilitySwift": [
       "3"
