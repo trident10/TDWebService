@@ -1,6 +1,6 @@
 PODS:
   - ReachabilitySwift (3)
-  - TDWebService (0.1.0):
+  - TDWebService (0.1.1):
     - ReachabilitySwift (= 3)
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
-  TDWebService: 4918d40c87766a174d7a0c7d4de26971d8cd02c2
+  TDWebService: f1c91e7e89a3071b8e9e2d568f3a4dab0d80a3e9
 
 PODFILE CHECKSUM: 96299c176da175bb6261bddb8038063294d63d56
 
