@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TDWebService/Classes/**/*'
+  s.source_files = 'TDWebService/TDWebService/Classes/**/*'
   
   # s.resource_bundles = {
   #   'TDWebService' => ['TDWebService/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'TDWebService/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'ReachabilitySwift', '3'
 

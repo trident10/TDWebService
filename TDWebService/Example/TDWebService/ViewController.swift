@@ -63,7 +63,7 @@ class Test: WebServiceAble{
             case .Success(let resultString):
                 let isResultValid = self?.validateResult(resultString)
                 print(resultString)
-                print(isResultValid)
+                //print(isResultValid)
             case .Error(let error):
                 print(error)
             }
