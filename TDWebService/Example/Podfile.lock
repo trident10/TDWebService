@@ -1,5 +1,7 @@
 PODS:
-  - TDWebService (0.1.0)
+  - ReachabilitySwift (3)
+  - TDWebService (0.1.0):
+    - ReachabilitySwift (= 3)
 
 DEPENDENCIES:
   - TDWebService (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TDWebService: 739b77b2c7b9e6fc99d94cf5bb87c28ac1e76b9b
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  TDWebService: e3356d2a077a313a8d46cb99ee3cfb89f68fbc85
 
 PODFILE CHECKSUM: 96299c176da175bb6261bddb8038063294d63d56
 
