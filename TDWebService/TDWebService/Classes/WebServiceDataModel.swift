@@ -69,11 +69,11 @@ struct Json {
 }
 
 public struct WebServiceRequest{
-    var methodType: MethodType = .GET
-    var urlEncodingType: URLEncodingType = .FORM
-    var url: String = ""
-    var parameters:[String:Any]?
-    var headers:[String:String]?
-    var resultType: ResultType = .String
-    var timeOutSession = 60
+    public var methodType: MethodType = .GET
+    public var urlEncodingType: URLEncodingType = .FORM
+    public var url: String = ""
+    public var parameters:[String:Any]?
+    public var headers:[String:String]?
+    public var resultType: ResultType = .String
+    public var timeOutSession = 60
 }
