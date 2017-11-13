@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TDWebService'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TDWebService.'
+  s.summary          = 'A generic web service library for iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -39,5 +39,4 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'TDWebService/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'ReachabilitySwift', '3'
-
 end
