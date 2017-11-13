@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TDWebService_Example' do
+  pod 'TDWebService', :path => '../'
+
+  target 'TDWebService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

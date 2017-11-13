@@ -1,0 +1,16 @@
+PODS:
+  - TDWebService (0.1.0)
+
+DEPENDENCIES:
+  - TDWebService (from `../`)
+
+EXTERNAL SOURCES:
+  TDWebService:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TDWebService: 739b77b2c7b9e6fc99d94cf5bb87c28ac1e76b9b
+
+PODFILE CHECKSUM: 96299c176da175bb6261bddb8038063294d63d56
+
+COCOAPODS: 1.2.1
