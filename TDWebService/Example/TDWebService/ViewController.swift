@@ -52,10 +52,10 @@ class Test: WebServiceAble{
         case Unauthorised
     }
     
-    var handler : ((Result<User, TestApiError>) -> Void)?
+    var handler : ((TDResult<User, TDError>) -> Void)?
     
     
-    func call(_ completionHandler: @escaping (Result<User, TestApiError>) -> Void) {
+    func call(_ completionHandler: @escaping (TDResult<User, TDError>) -> Void) {
         handler = completionHandler
         
         apiCall {[weak self](result) in
@@ -66,6 +66,7 @@ class Test: WebServiceAble{
                 //print(isResultValid)
             case .Error(let error):
                 print(error)
+                completionHandler(TDResult<User, TDError>.init(error: TestApiError.Unauthorised))
             }
             
         }

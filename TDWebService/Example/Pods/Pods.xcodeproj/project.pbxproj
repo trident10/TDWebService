@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		043847E36D2BA3D568A709622E5357A7 /* TDWebService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A505774A439E65C0826164B7B6068EEE /* TDWebService-dummy.m */; };
 		0E36E6EEE7468B9AEC49E6C2B21752B7 /* Pods-TDWebService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1F5510594139A00C15ED686680C2D8 /* Pods-TDWebService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1ED352BF78BD1CF0C7A25EFA6107FBD0 /* Pods-TDWebService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D679E060F1FC14ED6B28ED6CC2085156 /* Pods-TDWebService_Example-dummy.m */; };
+		1F3109BCEC9BFED9FC762D9DAF3B5B5F /* TDResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EBF849E158B0BD8ED9B5EEBD644541 /* TDResult.swift */; };
 		20286C96E5182A07507F98370D298774 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 275E6C6BD881C64FF5A9275414CDD168 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2820635198A5FB1FB8514C36B326F955 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0173D02276968EB9711C6BF944032E /* ReachabilitySwift-dummy.m */; };
 		28BF180FB2C14960BC62A7F9683965EF /* ReachabilitySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F84B6130651A2D33B43E2262595D590 /* ReachabilitySwift.framework */; };
 		2B4CB7C5E138E22491458804F7936B1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4190B3BD9EEFB247FCF2F0ACB5B2AF3C /* Foundation.framework */; };
+		2F2AE2BC3AF9A1F25BA1F0996E58BE82 /* WerbServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8620C50D88C4F4766C5E74B681C1C9 /* WerbServiceApi.swift */; };
 		3313AEC53F9F0AEC255CCE41F8C2F2B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4190B3BD9EEFB247FCF2F0ACB5B2AF3C /* Foundation.framework */; };
 		3361DC446F7166C00761790957FAB6A5 /* Pods-TDWebService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C93694851BBFE5268DC2FD9AE538C7 /* Pods-TDWebService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CC88F5DEFA19AE10FFB358D1B61B68D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42F9DD001E3E105AA07178DEF7CAB2F /* SystemConfiguration.framework */; };
-		4A1A09C6D31967C868C5977A4290860C /* WebServiceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5FE892BED6FF1E688DAFE80FA77279 /* WebServiceDataModel.swift */; };
+		3F4F7E915EDA8D68800A033106ABE970 /* TDWebService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CED05B72B187AAF9491DF95379483CD /* TDWebService-dummy.m */; };
 		4A65D1EECBF58B91760FB45137E0453C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4190B3BD9EEFB247FCF2F0ACB5B2AF3C /* Foundation.framework */; };
-		5BCF9705EC6C768DB2DEE036989BB67A /* TDWebService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A936B0920BA786B3347733958F3C09A /* TDWebService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AD65130F2E10B34BFED6D3EF1559BE8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485F5BED0A69ED2A7D8B1CADE27E7A3 /* Result.swift */; };
-		7FBCF1BCEC6FBAF4BA4579B76B20B34C /* ResponseValidatorApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0CE0D1FE5FE3E92E09666B88630F7 /* ResponseValidatorApi.swift */; };
-		81EB49AEB5B88662F8B6656BC62D8901 /* WebServiceAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D075B1E4F279D026F0BCACFB044295 /* WebServiceAble.swift */; };
+		5BCF9705EC6C768DB2DEE036989BB67A /* TDWebService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43287C6F5A33C981A81396329B4FED46 /* TDWebService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7937430125610DE78FA0C3BD8F626D3B /* WebServiceAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543FE4C48BCB0C5D24CDF6C9557E91FA /* WebServiceAble.swift */; };
+		A4FCFB42BDAB96AB689F216496065BC8 /* WebServiceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE5531B158CF674D80C7690941BAFC3 /* WebServiceDataModel.swift */; };
 		B193A4A6E59361D851E7DC61AD394772 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69D4187F1B8F1EEEA7A0121DE67F2B7 /* Reachability.swift */; };
 		B49B01B74787A9FD62A0894B6B09976B /* Pods-TDWebService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C014033CF9C648F110776E7FBD19B /* Pods-TDWebService_Tests-dummy.m */; };
 		BDF1F6F8767AE91A1DB24AADD9E801C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4190B3BD9EEFB247FCF2F0ACB5B2AF3C /* Foundation.framework */; };
-		D77C660070547D6C12F5E8C6BE9B17FC /* WerbServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607569B7927AC97F011968A397D45D24 /* WerbServiceApi.swift */; };
-		DC78438702732B4539D01A1872C20173 /* WebServiceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439DCF8518A4C0EFEBCCD9B787484BD /* WebServiceConfigurator.swift */; };
+		CECA32FEBB2697CDC756C0602A9B2EE7 /* WebServiceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D81EE6E17B323D5109DAAA75820FB /* WebServiceConfigurator.swift */; };
+		E70BBAFA21BD33D9DA5F731C8478016D /* ResponseValidatorApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8F2B9A36E6669B51DD9DCB1E4D919 /* ResponseValidatorApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,38 +56,39 @@
 
 /* Begin PBXFileReference section */
 		022DFEACFD5D0041997A86770F17F9C8 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
-		0B5FE892BED6FF1E688DAFE80FA77279 /* WebServiceDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebServiceDataModel.swift; path = TDWebService/Classes/WebServiceDataModel.swift; sourceTree = "<group>"; };
-		1485F5BED0A69ED2A7D8B1CADE27E7A3 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = TDWebService/Classes/Result.swift; sourceTree = "<group>"; };
+		0DE8F2B9A36E6669B51DD9DCB1E4D919 /* ResponseValidatorApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseValidatorApi.swift; path = TDWebService/Classes/ResponseValidatorApi.swift; sourceTree = "<group>"; };
 		1BB2A29A6FDCDB14FFEAD8642AAFF91B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F84B6130651A2D33B43E2262595D590 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		223C014033CF9C648F110776E7FBD19B /* Pods-TDWebService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDWebService_Tests-dummy.m"; sourceTree = "<group>"; };
 		275E6C6BD881C64FF5A9275414CDD168 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
-		2A936B0920BA786B3347733958F3C09A /* TDWebService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDWebService-umbrella.h"; sourceTree = "<group>"; };
-		31C0CE0D1FE5FE3E92E09666B88630F7 /* ResponseValidatorApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseValidatorApi.swift; path = TDWebService/Classes/ResponseValidatorApi.swift; sourceTree = "<group>"; };
+		33EBF849E158B0BD8ED9B5EEBD644541 /* TDResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDResult.swift; path = TDWebService/Classes/TDResult.swift; sourceTree = "<group>"; };
+		34A40082788277720017D58B9ECED074 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4190B3BD9EEFB247FCF2F0ACB5B2AF3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		47A7D55A7F4317505728F18D29867FD0 /* TDWebService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDWebService-prefix.pch"; sourceTree = "<group>"; };
-		607569B7927AC97F011968A397D45D24 /* WerbServiceApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WerbServiceApi.swift; path = TDWebService/Classes/WerbServiceApi.swift; sourceTree = "<group>"; };
+		43287C6F5A33C981A81396329B4FED46 /* TDWebService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDWebService-umbrella.h"; sourceTree = "<group>"; };
+		543FE4C48BCB0C5D24CDF6C9557E91FA /* WebServiceAble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebServiceAble.swift; path = TDWebService/Classes/WebServiceAble.swift; sourceTree = "<group>"; };
 		6C0F5E9F506BC5D42067D6108C00A8C3 /* Pods-TDWebService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDWebService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6E567F0FDC4286734A1A28F4DBDA381F /* TDWebService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDWebService.xcconfig; sourceTree = "<group>"; };
+		6CED05B72B187AAF9491DF95379483CD /* TDWebService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDWebService-dummy.m"; sourceTree = "<group>"; };
 		7176DDDADD4DFFAA05E93BE11F568FA1 /* Pods-TDWebService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDWebService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7185563227CA804C5CD1D48B7581D8F1 /* Pods-TDWebService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDWebService_Example-frameworks.sh"; sourceTree = "<group>"; };
 		777768038B702E154DA40B3F83333489 /* Pods_TDWebService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDWebService_Tests.framework; path = "Pods-TDWebService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0173D02276968EB9711C6BF944032E /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
 		7DDC97E048C0FC715060DA172A3750A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F440732F4FFF86C498CE460A123292E /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReachabilitySwift.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81D075B1E4F279D026F0BCACFB044295 /* WebServiceAble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebServiceAble.swift; path = TDWebService/Classes/WebServiceAble.swift; sourceTree = "<group>"; };
 		81EDC5D9699C55CDD738865DE78C0099 /* Pods-TDWebService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDWebService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8439DCF8518A4C0EFEBCCD9B787484BD /* WebServiceConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebServiceConfigurator.swift; path = TDWebService/Classes/WebServiceConfigurator.swift; sourceTree = "<group>"; };
 		8B913E02A3CEE50631752EFD2C866CE0 /* Pods-TDWebService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TDWebService_Tests.modulemap"; sourceTree = "<group>"; };
 		9179B624DC99891DF17671C82D7A4FDE /* Pods-TDWebService_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDWebService_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		91E44990BF9E5F7C820E6B49BDF04C65 /* TDWebService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TDWebService.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		957EC9FAB3641B8C06CD9FB35E5620DF /* Pods-TDWebService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDWebService_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A26A2E0325E5695FE0BAEE64EE9DB87B /* Pods-TDWebService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDWebService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A505774A439E65C0826164B7B6068EEE /* TDWebService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDWebService-dummy.m"; sourceTree = "<group>"; };
 		A88251D2C9C2E8F6EFB93EB33B568575 /* Pods-TDWebService_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDWebService_Example-resources.sh"; sourceTree = "<group>"; };
 		A8C93694851BBFE5268DC2FD9AE538C7 /* Pods-TDWebService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDWebService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AC5EAB5F82163A4F71A2219820F3F940 /* TDWebService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDWebService.xcconfig; sourceTree = "<group>"; };
+		B086CA08F11CFEDD9BEFB26975BCE133 /* TDWebService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDWebService-prefix.pch"; sourceTree = "<group>"; };
+		B28D81EE6E17B323D5109DAAA75820FB /* WebServiceConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebServiceConfigurator.swift; path = TDWebService/Classes/WebServiceConfigurator.swift; sourceTree = "<group>"; };
 		B69D4187F1B8F1EEEA7A0121DE67F2B7 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
 		B6A2B74EBFA087F0D676B9262CEBA1DA /* TDWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TDWebService.framework; path = TDWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE5531B158CF674D80C7690941BAFC3 /* WebServiceDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebServiceDataModel.swift; path = TDWebService/Classes/WebServiceDataModel.swift; sourceTree = "<group>"; };
 		BCFD1AF57B379EE187AAFC612AD2A84B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF267267A5D5F2861AC42B2BED7E9E98 /* Pods-TDWebService_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDWebService_Tests-resources.sh"; sourceTree = "<group>"; };
 		C1D4C5E115AFA0FDFEFA37BBE5B1FBAB /* Pods-TDWebService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TDWebService_Example.modulemap"; sourceTree = "<group>"; };
@@ -96,12 +97,11 @@
 		CF1F5510594139A00C15ED686680C2D8 /* Pods-TDWebService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDWebService_Example-umbrella.h"; sourceTree = "<group>"; };
 		D33488985FEEE68A903C90EAEE21B567 /* Pods-TDWebService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDWebService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D679E060F1FC14ED6B28ED6CC2085156 /* Pods-TDWebService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDWebService_Example-dummy.m"; sourceTree = "<group>"; };
+		DD8620C50D88C4F4766C5E74B681C1C9 /* WerbServiceApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WerbServiceApi.swift; path = TDWebService/Classes/WerbServiceApi.swift; sourceTree = "<group>"; };
 		E2D2A444FC528FC0D4C80F57A3D32F88 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
 		F42F9DD001E3E105AA07178DEF7CAB2F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		F70D8A81CAB957AD8A1D987D68247EBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB2E74FBC57F4A7F225FEA95717C183F /* Pods_TDWebService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDWebService_Example.framework; path = "Pods-TDWebService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB816299FDE6282DE0F233AF83A07B0B /* Pods-TDWebService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDWebService_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FC8B9366F8E83678EC7AF406A63D8BB3 /* TDWebService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TDWebService.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,41 +160,27 @@
 			path = "Target Support Files/Pods-TDWebService_Example";
 			sourceTree = "<group>";
 		};
-		1044DB075E6B39D365F8FCF20D347BBA /* Development Pods */ = {
+		0A1CE67EC9110B68B16EBC36AD6C31F9 /* TDWebService */ = {
 			isa = PBXGroup;
 			children = (
-				13169CADF9A29EAAED7BB173A502D7AE /* TDWebService */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		11E81B992538A641A499ECB42F310AC8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F70D8A81CAB957AD8A1D987D68247EBA /* Info.plist */,
-				FC8B9366F8E83678EC7AF406A63D8BB3 /* TDWebService.modulemap */,
-				6E567F0FDC4286734A1A28F4DBDA381F /* TDWebService.xcconfig */,
-				A505774A439E65C0826164B7B6068EEE /* TDWebService-dummy.m */,
-				47A7D55A7F4317505728F18D29867FD0 /* TDWebService-prefix.pch */,
-				2A936B0920BA786B3347733958F3C09A /* TDWebService-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TDWebService";
-			sourceTree = "<group>";
-		};
-		13169CADF9A29EAAED7BB173A502D7AE /* TDWebService */ = {
-			isa = PBXGroup;
-			children = (
-				31C0CE0D1FE5FE3E92E09666B88630F7 /* ResponseValidatorApi.swift */,
-				1485F5BED0A69ED2A7D8B1CADE27E7A3 /* Result.swift */,
-				81D075B1E4F279D026F0BCACFB044295 /* WebServiceAble.swift */,
-				8439DCF8518A4C0EFEBCCD9B787484BD /* WebServiceConfigurator.swift */,
-				0B5FE892BED6FF1E688DAFE80FA77279 /* WebServiceDataModel.swift */,
-				607569B7927AC97F011968A397D45D24 /* WerbServiceApi.swift */,
-				11E81B992538A641A499ECB42F310AC8 /* Support Files */,
+				0DE8F2B9A36E6669B51DD9DCB1E4D919 /* ResponseValidatorApi.swift */,
+				33EBF849E158B0BD8ED9B5EEBD644541 /* TDResult.swift */,
+				543FE4C48BCB0C5D24CDF6C9557E91FA /* WebServiceAble.swift */,
+				B28D81EE6E17B323D5109DAAA75820FB /* WebServiceConfigurator.swift */,
+				BCE5531B158CF674D80C7690941BAFC3 /* WebServiceDataModel.swift */,
+				DD8620C50D88C4F4766C5E74B681C1C9 /* WerbServiceApi.swift */,
+				6BDC56859DBD221C745296D26C361C19 /* Support Files */,
 			);
 			name = TDWebService;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		1044DB075E6B39D365F8FCF20D347BBA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A1CE67EC9110B68B16EBC36AD6C31F9 /* TDWebService */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		23D957A18E39051E3C576E7521B8012B /* Frameworks */ = {
@@ -204,6 +190,20 @@
 				DCC8F3DCBEC4189DBE7EFA9EA1371674 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BDC56859DBD221C745296D26C361C19 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34A40082788277720017D58B9ECED074 /* Info.plist */,
+				91E44990BF9E5F7C820E6B49BDF04C65 /* TDWebService.modulemap */,
+				AC5EAB5F82163A4F71A2219820F3F940 /* TDWebService.xcconfig */,
+				6CED05B72B187AAF9491DF95379483CD /* TDWebService-dummy.m */,
+				B086CA08F11CFEDD9BEFB26975BCE133 /* TDWebService-prefix.pch */,
+				43287C6F5A33C981A81396329B4FED46 /* TDWebService-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TDWebService";
 			sourceTree = "<group>";
 		};
 		73366BB52D2653BF09B4923BE06FD800 /* Products */ = {
@@ -356,7 +356,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3B459B3370411BB2F66D9D5AD619324 /* Build configuration list for PBXNativeTarget "TDWebService" */;
 			buildPhases = (
-				5007B251E1426248D8AB419E863D7C51 /* Sources */,
+				60B4A1AD7751FC8AFE9EB514BD0BD876 /* Sources */,
 				F92C6FB52CBD14F8675C6FA901EAA4E7 /* Frameworks */,
 				946F9590932047D77ECD1E26E03CAAD0 /* Headers */,
 			);
@@ -445,17 +445,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5007B251E1426248D8AB419E863D7C51 /* Sources */ = {
+		60B4A1AD7751FC8AFE9EB514BD0BD876 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FBCF1BCEC6FBAF4BA4579B76B20B34C /* ResponseValidatorApi.swift in Sources */,
-				6AD65130F2E10B34BFED6D3EF1559BE8 /* Result.swift in Sources */,
-				043847E36D2BA3D568A709622E5357A7 /* TDWebService-dummy.m in Sources */,
-				81EB49AEB5B88662F8B6656BC62D8901 /* WebServiceAble.swift in Sources */,
-				DC78438702732B4539D01A1872C20173 /* WebServiceConfigurator.swift in Sources */,
-				4A1A09C6D31967C868C5977A4290860C /* WebServiceDataModel.swift in Sources */,
-				D77C660070547D6C12F5E8C6BE9B17FC /* WerbServiceApi.swift in Sources */,
+				E70BBAFA21BD33D9DA5F731C8478016D /* ResponseValidatorApi.swift in Sources */,
+				1F3109BCEC9BFED9FC762D9DAF3B5B5F /* TDResult.swift in Sources */,
+				3F4F7E915EDA8D68800A033106ABE970 /* TDWebService-dummy.m in Sources */,
+				7937430125610DE78FA0C3BD8F626D3B /* WebServiceAble.swift in Sources */,
+				CECA32FEBB2697CDC756C0602A9B2EE7 /* WebServiceConfigurator.swift in Sources */,
+				A4FCFB42BDAB96AB689F216496065BC8 /* WebServiceDataModel.swift in Sources */,
+				2F2AE2BC3AF9A1F25BA1F0996E58BE82 /* WerbServiceApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,7 +561,7 @@
 		};
 		414F0D8251D32D06D4933600EEE8D32B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E567F0FDC4286734A1A28F4DBDA381F /* TDWebService.xcconfig */;
+			baseConfigurationReference = AC5EAB5F82163A4F71A2219820F3F940 /* TDWebService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -743,7 +743,7 @@
 		};
 		BF4E1478925433F822DEE5DCBCE2C186 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E567F0FDC4286734A1A28F4DBDA381F /* TDWebService.xcconfig */;
+			baseConfigurationReference = AC5EAB5F82163A4F71A2219820F3F940 /* TDWebService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

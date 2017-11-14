@@ -8,11 +8,11 @@
 import Foundation
 
 public protocol ResultValidatorApi{
-    func isResponseValid(_ result: WSResult) -> Result<Bool, WSError>
+    func isResponseValid(_ result: WSResult) -> TDResult<Bool, TDError>
 }
 
 struct DefaultResultValidatorApi: ResultValidatorApi{
-    func isResponseValid(_ result: WSResult) -> Result<Bool, WSError>{
-        return Result.init(value: true)
+    func isResponseValid(_ result: WSResult) -> TDResult<Bool, TDError>{
+        return TDResult.init(value: true)
     }
 }

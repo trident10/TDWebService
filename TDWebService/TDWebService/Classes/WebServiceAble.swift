@@ -65,7 +65,7 @@ public extension WebServiceAble{
         return .String
     }
     
-    public func apiCall(_ completionHandler: @escaping (Result<WSResult, WSError>) -> Void){
+    public func apiCall(_ completionHandler: @escaping (TDResult<WSResult, TDError>) -> Void){
         var configurator = WebServiceConfiguratorClient()
         configurator.dataSource = self
         let result = configurator.createRequest()
@@ -77,17 +77,17 @@ public extension WebServiceAble{
             })
             
         case .Error(let error):
-            completionHandler(Result.Error(error))
+            completionHandler(TDResult.Error(error))
         }
     }
     
-    public func validateResult(_ result: WSResult) -> Result<Bool, WSError>{
+    public func validateResult(_ result: WSResult) -> TDResult<Bool, TDError>{
         var configurator = WebServiceConfiguratorClient()
         configurator.dataSource = self
         return configurator.validateResult(result)
     }
     
-    private func call(_ request: WebServiceRequest, api: WebServiceAPI, completionHandler: @escaping (Result<WSResult, WSError>) -> Void){
+    private func call(_ request: WebServiceRequest, api: WebServiceAPI, completionHandler: @escaping (TDResult<WSResult, TDError>) -> Void){
         api.call(request) { (result) in
             completionHandler(result)
         }

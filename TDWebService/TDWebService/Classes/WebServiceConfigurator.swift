@@ -10,21 +10,21 @@ import ReachabilitySwift
 
 public protocol WebServiceConfigurator{
     var dataSource: WebServiceAble? {set get}
-    func createRequest() -> Result<WebServiceRequest, WSError>
+    func createRequest() -> TDResult<WebServiceRequest, TDError>
 }
 
 struct WebServiceConfiguratorClient: WebServiceConfigurator{
     var dataSource: WebServiceAble?
     
-    func createRequest() -> Result<WebServiceRequest, WSError>{
+    func createRequest() -> TDResult<WebServiceRequest, TDError>{
         if dataSource == nil{
-            return Result.Error(TDWSError.init(.RquestGenerationFailed))
+            return TDResult.Error(TDError.init(WebServiceError.RquestGenerationFailed))
         }
         if !isUrlVerified(urlString: dataSource?.url()){
-            return Result.Error(TDWSError.init(.InvalidUrl))
+            return TDResult.Error(TDError.init(WebServiceError.InvalidUrl))
         }
         if Reachability.init()?.currentReachabilityStatus == .notReachable{
-            return Result.Error(TDWSError.init(.NetworkNotReachable))
+            return TDResult.Error(TDError.init(WebServiceError.NetworkNotReachable))
         }
         var request = WebServiceRequest()
         request.methodType = (dataSource?.methodType())!
@@ -34,18 +34,18 @@ struct WebServiceConfiguratorClient: WebServiceConfigurator{
         request.headers = dataSource?.headerParameters()
         request.timeOutSession = (dataSource?.requestTimeOut())!
         request.resultType = (dataSource?.resultType())!
-        return Result.init(value: request)
+        return TDResult.init(value: request)
     }
     
-    func validateResult(_ result: WSResult) -> Result<Bool, WSError>{
+    func validateResult(_ result: WSResult) -> TDResult<Bool, TDError>{
         if dataSource == nil{
-            return Result.Error(TDWSError.init(.ResultValidationFailed))
+            return TDResult.Error(TDError.init(WebServiceError.ResultValidationFailed))
         }
         let resultValidatorAPI = dataSource?.resultValidatorClient()
         if resultValidatorAPI != nil{
             return (resultValidatorAPI?.isResponseValid(result))!
         }
-        return Result.Success(true)
+        return TDResult.Success(true)
         
     }
     

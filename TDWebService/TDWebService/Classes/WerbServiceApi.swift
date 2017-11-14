@@ -10,7 +10,7 @@ import Foundation
 public protocol WebServiceAPI{
     var request: WebServiceRequest? {get set}
     var response: AnyObject? {get set}
-    func call(_ request: WebServiceRequest, completionHandler: @escaping (Result<WSResult, WSError>) -> Void)
+    func call(_ request: WebServiceRequest, completionHandler: @escaping (TDResult<WSResult, TDError>) -> Void)
 }
 
 struct WebServiceAPIDefault: WebServiceAPI {
@@ -18,7 +18,7 @@ struct WebServiceAPIDefault: WebServiceAPI {
     
     var response: AnyObject?
     
-    func call(_ request: WebServiceRequest, completionHandler: @escaping (Result<WSResult, WSError>) -> Void) {
+    func call(_ request: WebServiceRequest, completionHandler: @escaping (TDResult<WSResult, TDError>) -> Void) {
         print("Pending url session feature needs to be added")
     }
     
