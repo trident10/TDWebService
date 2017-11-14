@@ -44,6 +44,7 @@ extension Json: WSResult{}
 
 public struct Json {
     public var jsonData: AnyObject?
+    public init(){}
 }
 
 public struct WebServiceRequest{
