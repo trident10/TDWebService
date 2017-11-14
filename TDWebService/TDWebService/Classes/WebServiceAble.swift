@@ -72,9 +72,9 @@ public extension WebServiceAble{
         switch result {
         case .Success(let webServiceRequest):
             let api = configurator.getApi()
-            call(webServiceRequest, api: api, completionHandler: {(result) in
+            api.call(webServiceRequest) { (result) in
                 completionHandler(result)
-            })
+            }
             
         case .Error(let error):
             completionHandler(TDResult.Error(error))
@@ -85,12 +85,6 @@ public extension WebServiceAble{
         var configurator = WebServiceConfiguratorClient()
         configurator.dataSource = self
         return configurator.validateResult(result)
-    }
-    
-    private func call(_ request: WebServiceRequest, api: WebServiceAPI, completionHandler: @escaping (TDResult<WSResult, TDError>) -> Void){
-        api.call(request) { (result) in
-            completionHandler(result)
-        }
     }
 
 }

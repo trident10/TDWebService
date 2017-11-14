@@ -13,10 +13,13 @@ public protocol WebServiceConfigurator{
     func createRequest() -> TDResult<WebServiceRequest, TDError>
 }
 
-struct WebServiceConfiguratorClient: WebServiceConfigurator{
-    var dataSource: WebServiceAble?
+public struct WebServiceConfiguratorClient: WebServiceConfigurator{
     
-    func createRequest() -> TDResult<WebServiceRequest, TDError>{
+    public init(){}
+    
+    public var dataSource: WebServiceAble?
+    
+    public func createRequest() -> TDResult<WebServiceRequest, TDError>{
         if dataSource == nil{
             return TDResult.Error(TDError.init(WebServiceError.RquestGenerationFailed))
         }
@@ -37,7 +40,7 @@ struct WebServiceConfiguratorClient: WebServiceConfigurator{
         return TDResult.init(value: request)
     }
     
-    func validateResult(_ result: WSResult) -> TDResult<Bool, TDError>{
+    public func validateResult(_ result: WSResult) -> TDResult<Bool, TDError>{
         if dataSource == nil{
             return TDResult.Error(TDError.init(WebServiceError.ResultValidationFailed))
         }
@@ -49,7 +52,7 @@ struct WebServiceConfiguratorClient: WebServiceConfigurator{
         
     }
     
-    func getApi()-> WebServiceAPI{
+    public func getApi()-> WebServiceAPI{
         return (dataSource?.apiClient())!
     }
     
