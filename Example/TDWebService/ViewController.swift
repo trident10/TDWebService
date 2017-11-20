@@ -87,49 +87,9 @@ class Test: TDWebService{
         apiCall {[weak self](result) in
             switch result {
             case .Success(let resultString):
-                let isResultValid = self?.validateResult(resultString)
+                _ = self?.validateResult(resultString)
                 print(resultString)
                 //print(isResultValid)
-            case .Error(let error):
-                print(error)
-                completionHandler(TDResult<User, TDError>.init(error: TestApiError.Unauthorised))
-            }
-            
-        }
-        
-        DispatchQueue.main.async {
-            self.cancel()
-        }
-    }
-}
-
-class Test2: TDWebService{
-    
-    func url() -> String {
-        return "https://httpbin.org/post"
-    }
-    
-    enum TestApiError: Error{
-        case Unauthorised
-    }
-    
-    func resultValidatorClient() -> TDResultValidatorApi {
-        return NehaoValidator()
-    }
-    
-    
-    var handler : ((TDResult<User, TDError>) -> Void)?
-    
-    
-    func call(_ completionHandler: @escaping (TDResult<User, TDError>) -> Void) {
-        handler = completionHandler
-        
-        apiCall {[weak self](result) in
-            switch result {
-            case .Success(let resultString):
-                let isResultValid = self?.validateResult(resultString)
-                print(resultString)
-            //print(isResultValid)
             case .Error(let error):
                 print(error)
                 completionHandler(TDResult<User, TDError>.init(error: TestApiError.Unauthorised))

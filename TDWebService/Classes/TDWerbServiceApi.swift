@@ -28,7 +28,6 @@ public struct TDWebServiceAPIDefault: TDWebServiceAPI {
     }
     
     public func cancel(){
-        print(request?.url)
         print("Pending url session feature needs to be added")
     }
     
