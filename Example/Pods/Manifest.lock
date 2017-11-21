@@ -1,6 +1,7 @@
 PODS:
   - TDResult (0.1.1)
-  - TDWebService (0.1.8)
+  - TDWebService (0.1.9):
+    - TDResult
 
 DEPENDENCIES:
   - TDResult
@@ -12,7 +13,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   TDResult: 8073c47dc4c99174490bce7a35a782ea97ac3c88
-  TDWebService: db20ead184e24a3032be4d979974d6f060e8186c
+  TDWebService: 69f3d00b6d7017322541c00877c095deb98f755f
 
 PODFILE CHECKSUM: 0c293746a8cc3bcf6dd9e0d6ee7bb5bd21ff5603
 

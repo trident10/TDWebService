@@ -1,6 +1,6 @@
 {
   "name": "TDWebService",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "summary": "A generic structure for Webservice",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/trident10/TDWebService",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/trident10/TDWebService.git",
-    "tag": "0.1.8"
+    "tag": "0.1.9"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TDWebService/Classes/**/*"
+  "source_files": "TDWebService/Classes/**/*",
+  "dependencies": {
+    "TDResult": [
+
+    ]
+  }
 }
