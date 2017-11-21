@@ -42,7 +42,7 @@ public extension TDWebService{
     
    var api: TDWebServiceApi {
         get {
-            return (objc_getAssociatedObject(self, &xoAssociationApiKey) as? TDWebServiceApiDefault)!
+            return (objc_getAssociatedObject(self, &xoAssociationApiKey) as? TDWebServiceApi)!
         }
         set(newValue) {
             objc_setAssociatedObject(self, &xoAssociationApiKey, newValue, .OBJC_ASSOCIATION_RETAIN)
