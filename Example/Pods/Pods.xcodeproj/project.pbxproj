@@ -8,24 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		06CE4905E3BC3777720EE609EC8EF949 /* TDResult-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5B615DBD9E11C2A433ED1D97028339 /* TDResult-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07C363D50AFBD24F1D3FDC2533786063 /* TDWebServiceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662253FD5B19F03FF2D105DDD8774E4F /* TDWebServiceDataModel.swift */; };
-		104EE9B2C90900F4B47CBD733425B48E /* TDWebServiceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BE294D71835CF0CFEA13BA2440EC0 /* TDWebServiceConfigurator.swift */; };
 		13DB438EACB477D474200EE53334A99D /* TDResult-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C156CF87E363E3DEA5B3DC87172E2970 /* TDResult-dummy.m */; };
-		296BC356E03E0CC1A916829A3EBE59B7 /* TDResultValidatorApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E1B0ACC9FBDED13CC96A632471C9A /* TDResultValidatorApi.swift */; };
+		2729915DE610948D8887BE5A38265932 /* TDReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CED2B00AFE579D0BD48CE36B18E01B /* TDReachability.swift */; };
 		2E53F9D4C75DC5F99DBFDAD7D2882345 /* Pods-TDWebService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D679E060F1FC14ED6B28ED6CC2085156 /* Pods-TDWebService_Example-dummy.m */; };
 		3313AEC53F9F0AEC255CCE41F8C2F2B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3361DC446F7166C00761790957FAB6A5 /* Pods-TDWebService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C93694851BBFE5268DC2FD9AE538C7 /* Pods-TDWebService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A72E7F5879CCC2C3D596740AA82D2C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		441EEAFDB439DC444E4E53548AA78C94 /* TDWebService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F22E7C510C93A8EB75CBDE584E3169E1 /* TDWebService-dummy.m */; };
+		3CA25B6342DDCCABE22829204F73BB62 /* TDWebServiceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1545D1E18A1642BA1DC9B0DE56B0CBD /* TDWebServiceDataModel.swift */; };
 		451CB209A6CA117E5D3F3ED6D6D02EC1 /* Pods-TDWebService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1F5510594139A00C15ED686680C2D8 /* Pods-TDWebService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59DF311FC5CBA9FDABE8778E773720AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5DA686BBFD0986BD361DBE0948C2C779 /* TDResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026F910CAAC31DC54B0A656E7309DB7 /* TDResult.swift */; };
-		63FF31E539165D4514754ACC76B6D348 /* TDWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553542D123CE91632C5C9E4B816F9297 /* TDWebService.swift */; };
-		7E310C83101590E0B7E941507DB8126E /* TDReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12BEF17EE02BF77CC2BD916FCC0E39 /* TDReachability.swift */; };
-		A8EDE8E4C14DAD496145F7E25307CDD3 /* TDWebService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D31ABDCE242BC414876A5C61A9D3855C /* TDWebService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE4C893271064D93878B521D757679E7 /* TDWerbServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09499128C358CBAEFB8A1C743C116407 /* TDWerbServiceApi.swift */; };
+		792FC9448DD7BB3626E04CA483A8FE82 /* TDWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DACEFEEA33E404454DAD15C632C171 /* TDWebService.swift */; };
+		8DEDFCEDD36C1B71EAE094590150E67D /* TDWebServiceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CFE5097804A167CD285BF4F1419935 /* TDWebServiceConfigurator.swift */; };
+		A8EDE8E4C14DAD496145F7E25307CDD3 /* TDWebService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AA2B6F53F29F808E7D99A56D43E3DE /* TDWebService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A904E2C24DD1A781FC2AA90594A58952 /* TDResultValidatorApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340132D281EC37E390CB4DCADD3AD46 /* TDResultValidatorApi.swift */; };
+		AEB96757BD52C02AC7EEA858B55743CA /* TDWebServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520D59AF3EC6369981582B4275B4E52B /* TDWebServiceApi.swift */; };
 		B49B01B74787A9FD62A0894B6B09976B /* Pods-TDWebService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C014033CF9C648F110776E7FBD19B /* Pods-TDWebService_Tests-dummy.m */; };
-		CAE87D2F1FC3FE2700019F2B /* TDResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026F910CAAC31DC54B0A656E7309DB7 /* TDResult.swift */; };
+		D37F1D3C8411E5F78749A091D5A18591 /* TDWebService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5325209611644CC16C5E3A58273933C9 /* TDWebService-dummy.m */; };
 		FB75E2B1A1F8D8981C9EA4C036589B53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,51 +46,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09499128C358CBAEFB8A1C743C116407 /* TDWerbServiceApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDWerbServiceApi.swift; path = TDWebService/Classes/TDWerbServiceApi.swift; sourceTree = "<group>"; };
-		0B6E55E06C6A7F9AAEABB27AD05E7553 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BCF47E464DCD3BC5DE739FB412D2208 /* Pods_TDWebService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDWebService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1839A213C340E472235219CBDB030C53 /* TDWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TDWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20636DCD14676980475B136E5EE42916 /* TDWebService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDWebService-prefix.pch"; sourceTree = "<group>"; };
+		0BCF47E464DCD3BC5DE739FB412D2208 /* Pods_TDWebService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDWebService_Example.framework; path = "Pods-TDWebService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CED2B00AFE579D0BD48CE36B18E01B /* TDReachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDReachability.swift; path = TDWebService/Classes/TDReachability.swift; sourceTree = "<group>"; };
+		1839A213C340E472235219CBDB030C53 /* TDWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TDWebService.framework; path = TDWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		223C014033CF9C648F110776E7FBD19B /* Pods-TDWebService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDWebService_Tests-dummy.m"; sourceTree = "<group>"; };
-		323ACA409008BDE34131F9927747256C /* TDWebService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TDWebService.modulemap; sourceTree = "<group>"; };
-		553542D123CE91632C5C9E4B816F9297 /* TDWebService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDWebService.swift; path = TDWebService/Classes/TDWebService.swift; sourceTree = "<group>"; };
-		5BD2DB00EEF336D31DE72F2402EF75F6 /* TDResult.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TDResult.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AA2B6F53F29F808E7D99A56D43E3DE /* TDWebService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDWebService-umbrella.h"; sourceTree = "<group>"; };
+		520D59AF3EC6369981582B4275B4E52B /* TDWebServiceApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDWebServiceApi.swift; path = TDWebService/Classes/TDWebServiceApi.swift; sourceTree = "<group>"; };
+		5325209611644CC16C5E3A58273933C9 /* TDWebService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDWebService-dummy.m"; sourceTree = "<group>"; };
+		5BD2DB00EEF336D31DE72F2402EF75F6 /* TDResult.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TDResult.framework; path = TDResult.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6340132D281EC37E390CB4DCADD3AD46 /* TDResultValidatorApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDResultValidatorApi.swift; path = TDWebService/Classes/TDResultValidatorApi.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		662253FD5B19F03FF2D105DDD8774E4F /* TDWebServiceDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDWebServiceDataModel.swift; path = TDWebService/Classes/TDWebServiceDataModel.swift; sourceTree = "<group>"; };
+		6AD998D02BFECB323EC2C0DEFEFDBF26 /* TDWebService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TDWebService.modulemap; sourceTree = "<group>"; };
 		6C0F5E9F506BC5D42067D6108C00A8C3 /* Pods-TDWebService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDWebService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6C3DB8024EF12240F34FAA8C685BFB3B /* TDWebService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDWebService.xcconfig; sourceTree = "<group>"; };
 		7176DDDADD4DFFAA05E93BE11F568FA1 /* Pods-TDWebService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDWebService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7185563227CA804C5CD1D48B7581D8F1 /* Pods-TDWebService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDWebService_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7A12BEF17EE02BF77CC2BD916FCC0E39 /* TDReachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDReachability.swift; path = TDWebService/Classes/TDReachability.swift; sourceTree = "<group>"; };
 		7DDC97E048C0FC715060DA172A3750A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81EDC5D9699C55CDD738865DE78C0099 /* Pods-TDWebService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDWebService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8B913E02A3CEE50631752EFD2C866CE0 /* Pods-TDWebService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TDWebService_Tests.modulemap"; sourceTree = "<group>"; };
+		8B913E02A3CEE50631752EFD2C866CE0 /* Pods-TDWebService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TDWebService_Tests.modulemap"; sourceTree = "<group>"; };
 		9179B624DC99891DF17671C82D7A4FDE /* Pods-TDWebService_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDWebService_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		957EC9FAB3641B8C06CD9FB35E5620DF /* Pods-TDWebService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDWebService_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		969058ED5BBCB9E9CD6E3052973BCB0C /* TDResult.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TDResult.modulemap; sourceTree = "<group>"; };
+		969058ED5BBCB9E9CD6E3052973BCB0C /* TDResult.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TDResult.modulemap; sourceTree = "<group>"; };
 		9BDC4870F80C9E51BE0E5AFE55D8314E /* TDResult.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDResult.xcconfig; sourceTree = "<group>"; };
 		A26A2E0325E5695FE0BAEE64EE9DB87B /* Pods-TDWebService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDWebService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A3231DF3BD81A31AE8CEDA04B041EF49 /* Pods_TDWebService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDWebService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3231DF3BD81A31AE8CEDA04B041EF49 /* Pods_TDWebService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDWebService_Tests.framework; path = "Pods-TDWebService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CFE5097804A167CD285BF4F1419935 /* TDWebServiceConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDWebServiceConfigurator.swift; path = TDWebService/Classes/TDWebServiceConfigurator.swift; sourceTree = "<group>"; };
 		A88251D2C9C2E8F6EFB93EB33B568575 /* Pods-TDWebService_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDWebService_Example-resources.sh"; sourceTree = "<group>"; };
 		A8C93694851BBFE5268DC2FD9AE538C7 /* Pods-TDWebService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDWebService_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B1ADAFEB10FE971EDF607B2B1889E7D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DACEFEEA33E404454DAD15C632C171 /* TDWebService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDWebService.swift; path = TDWebService/Classes/TDWebService.swift; sourceTree = "<group>"; };
 		BCFD1AF57B379EE187AAFC612AD2A84B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF267267A5D5F2861AC42B2BED7E9E98 /* Pods-TDWebService_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDWebService_Tests-resources.sh"; sourceTree = "<group>"; };
 		C156CF87E363E3DEA5B3DC87172E2970 /* TDResult-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDResult-dummy.m"; sourceTree = "<group>"; };
-		C1D4C5E115AFA0FDFEFA37BBE5B1FBAB /* Pods-TDWebService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TDWebService_Example.modulemap"; sourceTree = "<group>"; };
+		C1D4C5E115AFA0FDFEFA37BBE5B1FBAB /* Pods-TDWebService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TDWebService_Example.modulemap"; sourceTree = "<group>"; };
 		C42F0A44AFE37F58C704C0A2F1757F48 /* TDResult-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDResult-prefix.pch"; sourceTree = "<group>"; };
 		C9458305E331C22266368FA49216F872 /* Pods-TDWebService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDWebService_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CC1E1B0ACC9FBDED13CC96A632471C9A /* TDResultValidatorApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDResultValidatorApi.swift; path = TDWebService/Classes/TDResultValidatorApi.swift; sourceTree = "<group>"; };
+		CBBD057C62DD8C116F12F89AED90BC29 /* TDWebService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDWebService.xcconfig; sourceTree = "<group>"; };
 		CF1F5510594139A00C15ED686680C2D8 /* Pods-TDWebService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDWebService_Example-umbrella.h"; sourceTree = "<group>"; };
-		D31ABDCE242BC414876A5C61A9D3855C /* TDWebService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDWebService-umbrella.h"; sourceTree = "<group>"; };
 		D33488985FEEE68A903C90EAEE21B567 /* Pods-TDWebService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDWebService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D679E060F1FC14ED6B28ED6CC2085156 /* Pods-TDWebService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDWebService_Example-dummy.m"; sourceTree = "<group>"; };
+		E1545D1E18A1642BA1DC9B0DE56B0CBD /* TDWebServiceDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDWebServiceDataModel.swift; path = TDWebService/Classes/TDWebServiceDataModel.swift; sourceTree = "<group>"; };
 		F026F910CAAC31DC54B0A656E7309DB7 /* TDResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDResult.swift; path = TDResult/Classes/TDResult.swift; sourceTree = "<group>"; };
-		F22E7C510C93A8EB75CBDE584E3169E1 /* TDWebService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDWebService-dummy.m"; sourceTree = "<group>"; };
-		FB2BE294D71835CF0CFEA13BA2440EC0 /* TDWebServiceConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDWebServiceConfigurator.swift; path = TDWebService/Classes/TDWebServiceConfigurator.swift; sourceTree = "<group>"; };
+		F20CE6CC48042DB108B561B3CFDC4832 /* TDWebService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDWebService-prefix.pch"; sourceTree = "<group>"; };
 		FB816299FDE6282DE0F233AF83A07B0B /* Pods-TDWebService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDWebService_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FC5B615DBD9E11C2A433ED1D97028339 /* TDResult-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDResult-umbrella.h"; sourceTree = "<group>"; };
+		FDFEB2050B43EBF5FBFBBB2C1285C360 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +129,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		069CFDF8400B421BDBA23FB99FAB1ED1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDFEB2050B43EBF5FBFBBB2C1285C360 /* Info.plist */,
+				6AD998D02BFECB323EC2C0DEFEFDBF26 /* TDWebService.modulemap */,
+				CBBD057C62DD8C116F12F89AED90BC29 /* TDWebService.xcconfig */,
+				5325209611644CC16C5E3A58273933C9 /* TDWebService-dummy.m */,
+				F20CE6CC48042DB108B561B3CFDC4832 /* TDWebService-prefix.pch */,
+				28AA2B6F53F29F808E7D99A56D43E3DE /* TDWebService-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TDWebService";
+			sourceTree = "<group>";
+		};
 		0A05F67FC5207BB436B76F62E7B7F56F /* Pods-TDWebService_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +164,7 @@
 		1044DB075E6B39D365F8FCF20D347BBA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F0C22B2EBC92C02C4A20BA0B4454D6C3 /* TDWebService */,
+				B5026BFE4DF03BD0185A473161C3A781 /* TDWebService */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -162,6 +175,7 @@
 				F026F910CAAC31DC54B0A656E7309DB7 /* TDResult.swift */,
 				D6BCC13EAAEE9EFADF5F8EDF353A5515 /* Support Files */,
 			);
+			name = TDResult;
 			path = TDResult;
 			sourceTree = "<group>";
 		};
@@ -175,20 +189,6 @@
 				BABA3E026BFFC1CAD139C952D2C2FB8D /* Products */,
 				90EBD9A2A8B891B4132C8A407F668AAF /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		889A445992746C474EA487922999F580 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0B6E55E06C6A7F9AAEABB27AD05E7553 /* Info.plist */,
-				323ACA409008BDE34131F9927747256C /* TDWebService.modulemap */,
-				6C3DB8024EF12240F34FAA8C685BFB3B /* TDWebService.xcconfig */,
-				F22E7C510C93A8EB75CBDE584E3169E1 /* TDWebService-dummy.m */,
-				20636DCD14676980475B136E5EE42916 /* TDWebService-prefix.pch */,
-				D31ABDCE242BC414876A5C61A9D3855C /* TDWebService-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TDWebService";
 			sourceTree = "<group>";
 		};
 		90EBD9A2A8B891B4132C8A407F668AAF /* Targets Support Files */ = {
@@ -206,6 +206,21 @@
 				3766A52842AB46C11435A8003DC184D5 /* TDResult */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5026BFE4DF03BD0185A473161C3A781 /* TDWebService */ = {
+			isa = PBXGroup;
+			children = (
+				15CED2B00AFE579D0BD48CE36B18E01B /* TDReachability.swift */,
+				6340132D281EC37E390CB4DCADD3AD46 /* TDResultValidatorApi.swift */,
+				B3DACEFEEA33E404454DAD15C632C171 /* TDWebService.swift */,
+				520D59AF3EC6369981582B4275B4E52B /* TDWebServiceApi.swift */,
+				A5CFE5097804A167CD285BF4F1419935 /* TDWebServiceConfigurator.swift */,
+				E1545D1E18A1642BA1DC9B0DE56B0CBD /* TDWebServiceDataModel.swift */,
+				069CFDF8400B421BDBA23FB99FAB1ED1 /* Support Files */,
+			);
+			name = TDWebService;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BABA3E026BFFC1CAD139C952D2C2FB8D /* Products */ = {
@@ -267,21 +282,6 @@
 			path = "../Target Support Files/TDResult";
 			sourceTree = "<group>";
 		};
-		F0C22B2EBC92C02C4A20BA0B4454D6C3 /* TDWebService */ = {
-			isa = PBXGroup;
-			children = (
-				7A12BEF17EE02BF77CC2BD916FCC0E39 /* TDReachability.swift */,
-				CC1E1B0ACC9FBDED13CC96A632471C9A /* TDResultValidatorApi.swift */,
-				553542D123CE91632C5C9E4B816F9297 /* TDWebService.swift */,
-				FB2BE294D71835CF0CFEA13BA2440EC0 /* TDWebServiceConfigurator.swift */,
-				662253FD5B19F03FF2D105DDD8774E4F /* TDWebServiceDataModel.swift */,
-				09499128C358CBAEFB8A1C743C116407 /* TDWerbServiceApi.swift */,
-				889A445992746C474EA487922999F580 /* Support Files */,
-			);
-			name = TDWebService;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -324,7 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15B6327B11EFA24B222347D5A86412A7 /* Build configuration list for PBXNativeTarget "TDWebService" */;
 			buildPhases = (
-				7879369C641BDC5367A812942A23B078 /* Sources */,
+				CF40F69DFDD5D48EB847E08131DBB681 /* Sources */,
 				CA4C77F0A65E88DBBE5A5632230FB20C /* Frameworks */,
 				E1838A6FFF2DE1262AADA52F24160B18 /* Headers */,
 			);
@@ -428,27 +428,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7879369C641BDC5367A812942A23B078 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAE87D2F1FC3FE2700019F2B /* TDResult.swift in Sources */,
-				7E310C83101590E0B7E941507DB8126E /* TDReachability.swift in Sources */,
-				296BC356E03E0CC1A916829A3EBE59B7 /* TDResultValidatorApi.swift in Sources */,
-				441EEAFDB439DC444E4E53548AA78C94 /* TDWebService-dummy.m in Sources */,
-				63FF31E539165D4514754ACC76B6D348 /* TDWebService.swift in Sources */,
-				104EE9B2C90900F4B47CBD733425B48E /* TDWebServiceConfigurator.swift in Sources */,
-				07C363D50AFBD24F1D3FDC2533786063 /* TDWebServiceDataModel.swift in Sources */,
-				AE4C893271064D93878B521D757679E7 /* TDWerbServiceApi.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9C6311BDBA1AD9700E426B3F0FA69B34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				13DB438EACB477D474200EE53334A99D /* TDResult-dummy.m in Sources */,
 				5DA686BBFD0986BD361DBE0948C2C779 /* TDResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF40F69DFDD5D48EB847E08131DBB681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2729915DE610948D8887BE5A38265932 /* TDReachability.swift in Sources */,
+				A904E2C24DD1A781FC2AA90594A58952 /* TDResultValidatorApi.swift in Sources */,
+				D37F1D3C8411E5F78749A091D5A18591 /* TDWebService-dummy.m in Sources */,
+				792FC9448DD7BB3626E04CA483A8FE82 /* TDWebService.swift in Sources */,
+				AEB96757BD52C02AC7EEA858B55743CA /* TDWebServiceApi.swift in Sources */,
+				8DEDFCEDD36C1B71EAE094590150E67D /* TDWebServiceConfigurator.swift in Sources */,
+				3CA25B6342DDCCABE22829204F73BB62 /* TDWebServiceDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +513,7 @@
 		};
 		2FB3D6FA7BFFF2F4464780ADC36D31F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C3DB8024EF12240F34FAA8C685BFB3B /* TDWebService.xcconfig */;
+			baseConfigurationReference = CBBD057C62DD8C116F12F89AED90BC29 /* TDWebService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -728,7 +727,7 @@
 		};
 		79E9BCFA8B919EF0EE8D2529FFF36484 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C3DB8024EF12240F34FAA8C685BFB3B /* TDWebService.xcconfig */;
+			baseConfigurationReference = CBBD057C62DD8C116F12F89AED90BC29 /* TDWebService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

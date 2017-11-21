@@ -7,6 +7,7 @@
 
 import Foundation
 import ObjectiveC
+import TDResult
 
 public protocol TDWebService: class {
     

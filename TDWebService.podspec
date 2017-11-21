@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TDWebService'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'A generic structure for Webservice'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.dependency 'TDResult'
+# s.dependency 'TDResult'
 
 end

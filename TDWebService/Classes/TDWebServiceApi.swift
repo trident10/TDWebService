@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import TDResult
 
 public protocol TDWebServiceAPI{
     var request: TDWebServiceRequest? {get set}

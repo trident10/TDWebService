@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import TDResult
 
 public protocol TDWebServiceConfigurator{
     var dataSource: TDWebService? {set get}
