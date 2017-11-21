@@ -31,6 +31,7 @@ public enum TDWebServiceError: Error{
     case requestGenerationFailed
     case resultValidationFailed
     case networkNotReachable
+    case validatorApiFailed
     case invalidUrl
     case apiError
     case jsonConversionFailure

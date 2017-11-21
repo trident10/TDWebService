@@ -24,7 +24,9 @@ public struct TDWebServiceAPIDefault: TDWebServiceAPI {
     
     public mutating func call(_ request: TDWebServiceRequest, completionHandler: @escaping (TDResult<TDWSResult, TDError>) -> Void) {
         self.request = request
-        print("Pending url session feature needs to be added")
+        DispatchQueue.main.async {
+            completionHandler(TDResult.Success("Test"))
+        }
     }
     
     public func cancel(){

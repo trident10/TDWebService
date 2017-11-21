@@ -14,7 +14,7 @@ public protocol TDWebService: class {
     func headerParameters() -> [String:String]?
     func url() -> String
     func requestTimeOut()->Int
-    func resultValidatorClient() -> TDResultValidatorApi
+    func validalidatorClient() -> TDResultValidatorApi?
     func methodType() -> TDMethodType
     func encodingType() -> TDURLEncodingType
     func resultType() -> TDResultType
@@ -22,7 +22,6 @@ public protocol TDWebService: class {
     func apiCall(_ completionHandler: @escaping (TDResult<TDWSResult, TDError>) -> Void)
     func cancel()
     func cancelAll()
-    func validateResult(_ result: TDWSResult) -> TDResult<Bool, TDError>
     
 }
 
@@ -31,7 +30,7 @@ private var xoAssociationApiKey: UInt8 = 1
 
 public extension TDWebService{
     
-   public var configurator: TDWebServiceConfiguratorClient {
+   var configurator: TDWebServiceConfiguratorClient {
         get {
             return (objc_getAssociatedObject(self, &xoAssociationConfigKey) as? TDWebServiceConfiguratorClient)!
         }
@@ -40,7 +39,7 @@ public extension TDWebService{
         }
     }
     
-   public var api: TDWebServiceAPI {
+   var api: TDWebServiceAPI {
         get {
             return (objc_getAssociatedObject(self, &xoAssociationApiKey) as? TDWebServiceAPIDefault)!
         }
@@ -65,8 +64,8 @@ public extension TDWebService{
         return TDWebServiceAPIDefault()
     }
     
-    public func resultValidatorClient() -> TDResultValidatorApi{
-        return TDResultValidatorApiDefault()
+    public func validalidatorClient() -> TDResultValidatorApi?{
+        return nil
     }
     
     public func methodType()-> TDMethodType{
@@ -86,29 +85,45 @@ public extension TDWebService{
         configurator.dataSource = self
         let result = configurator.createRequest()
         switch result {
-        case .Success(let webServiceRequest):
-            api = configurator.getApi()
-            api.call(webServiceRequest) { (result) in
-                completionHandler(result)
-            }
+            case .Success(let webServiceRequest):
+                api = configurator.getApi()
+                initiateApiCall(webServiceRequest, completionHandler: completionHandler)
             
-        case .Error(let error):
-            completionHandler(TDResult.Error(error))
+            case .Error(let error):
+                completionHandler(TDResult.Error(error))
         }
     }
     
-    func cancel(){
+    public func cancel(){
         api.cancel()
     }
     
-    func cancelAll(){
+    public func cancelAll(){
         api.cancelAll()
     }
     
-    public func validateResult(_ result: TDWSResult) -> TDResult<Bool, TDError>{
-        var configurator = TDWebServiceConfiguratorClient()
-        configurator.dataSource = self
-        return configurator.validateResult(result)
+    
+    private func initiateApiCall(_ request: TDWebServiceRequest, completionHandler: @escaping (TDResult<TDWSResult, TDError>) -> Void){
+        api.call(request) {[weak self] (result) in
+            let validator = self?.configurator.getValidator()
+            if validator == nil{
+                completionHandler(result)
+                return
+            }
+            switch result {
+            case .Success(let wsResult):
+                let validResult = validator?.validateResponse(wsResult)
+                if let finalResult = validResult{
+                    completionHandler(finalResult)
+                }
+                else{
+                    completionHandler(TDResult.Error(TDError.init(TDWebServiceError.validatorApiFailed)))
+                }
+            default:
+                print("Should not be called")
+            }
+        }
     }
+
 
 }

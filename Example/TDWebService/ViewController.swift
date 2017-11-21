@@ -47,12 +47,12 @@ struct User{
 }
 
 struct NehaoValidator: TDResultValidatorApi{
-    func isResponseValid(_ result: TDWSResult) -> TDResult<Bool, TDError> {
+    func validateResponse(_ result: TDWSResult) -> TDResult<TDWSResult, TDError> {
         let resultJson = result as? [String: Any]
         if resultJson == nil{
             return TDResult.Error(TDError.init(Validation.NotAuthorised))
         }
-        return TDResult.init(value: true)
+        return TDResult.init(value: result)
     }
     
     enum Validation: Error{
@@ -73,7 +73,7 @@ class Test: TDWebService{
         case Unauthorised
     }
     
-    func resultValidatorClient() -> TDResultValidatorApi {
+    func validalidatorClient() -> TDResultValidatorApi? {
         return NehaoValidator()
     }
 
@@ -84,10 +84,9 @@ class Test: TDWebService{
     func call(_ completionHandler: @escaping (TDResult<User, TDError>) -> Void) {
         handler = completionHandler
         
-        apiCall {[weak self](result) in
+        apiCall {(result) in
             switch result {
             case .Success(let resultString):
-                _ = self?.validateResult(resultString)
                 print(resultString)
                 //print(isResultValid)
             case .Error(let error):

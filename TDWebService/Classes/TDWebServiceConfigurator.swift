@@ -39,20 +39,24 @@ public struct TDWebServiceConfiguratorClient: TDWebServiceConfigurator{
         return TDResult.init(value: request)
     }
     
-    public func validateResult(_ result: TDWSResult) -> TDResult<Bool, TDError>{
+    public func validateResult(_ result: TDWSResult) -> TDResult<TDWSResult, TDError>{
         if dataSource == nil{
             return TDResult.Error(TDError.init(TDWebServiceError.resultValidationFailed))
         }
-        let resultValidatorAPI = dataSource?.resultValidatorClient()
+        let resultValidatorAPI = dataSource?.validalidatorClient()
         if resultValidatorAPI != nil{
-            return (resultValidatorAPI?.isResponseValid(result))!
+            return (resultValidatorAPI?.validateResponse(result))!
         }
-        return TDResult.Success(true)
+        return TDResult.Success(result)
         
     }
     
     public func getApi()-> TDWebServiceAPI{
         return (dataSource?.apiClient())!
+    }
+    
+    public func getValidator()-> TDResultValidatorApi?{
+        return dataSource?.validalidatorClient()
     }
     
     private func isUrlVerified (urlString: String?) -> Bool {
