@@ -8,6 +8,7 @@
 
 import UIKit
 import TDWebService
+import TDResult
 
 class ViewController: UIViewController {
     
