@@ -52,7 +52,7 @@ public struct TDWebServiceConfiguratorClient: TDWebServiceConfigurator{
         
     }
     
-    public func getApi()-> TDWebServiceAPI{
+    public func getApi()-> TDWebServiceApi{
         return (dataSource?.apiClient())!
     }
     

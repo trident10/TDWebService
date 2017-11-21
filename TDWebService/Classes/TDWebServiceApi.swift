@@ -8,7 +8,7 @@
 import Foundation
 import TDResult
 
-public protocol TDWebServiceAPI{
+public protocol TDWebServiceApi{
     var request: TDWebServiceRequest? {get set}
     var response: AnyObject? {get set}
     mutating func call(_ request: TDWebServiceRequest, completionHandler: @escaping (TDResult<TDWSResult, TDError>) -> Void)
@@ -16,7 +16,7 @@ public protocol TDWebServiceAPI{
     func cancelAll()
 }
 
-public struct TDWebServiceAPIDefault: TDWebServiceAPI {
+public struct TDWebServiceApiDefault: TDWebServiceApi {
     
     public init(){}
     

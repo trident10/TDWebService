@@ -40,9 +40,9 @@ public extension TDWebService{
         }
     }
     
-   var api: TDWebServiceAPI {
+   var api: TDWebServiceApi {
         get {
-            return (objc_getAssociatedObject(self, &xoAssociationApiKey) as? TDWebServiceAPIDefault)!
+            return (objc_getAssociatedObject(self, &xoAssociationApiKey) as? TDWebServiceApiDefault)!
         }
         set(newValue) {
             objc_setAssociatedObject(self, &xoAssociationApiKey, newValue, .OBJC_ASSOCIATION_RETAIN)
@@ -61,8 +61,8 @@ public extension TDWebService{
         return 60
     }
     
-    public func apiClient() -> TDWebServiceAPI{
-        return TDWebServiceAPIDefault()
+    public func apiClient() -> TDWebServiceApi{
+        return TDWebServiceApiDefault()
     }
     
     public func validalidatorClient() -> TDResultValidatorApi?{
@@ -104,7 +104,7 @@ public extension TDWebService{
     }
     
     
-    private func initiateApiCall(_ request: TDWebServiceRequest, completionHandler: @escaping (TDResult<TDWSResult, TDError>) -> Void){
+    public func initiateApiCall(_ request: TDWebServiceRequest, completionHandler: @escaping (TDResult<TDWSResult, TDError>) -> Void){
         api.call(request) {[weak self] (result) in
             let validator = self?.configurator.getValidator()
             if validator == nil{
