@@ -1,5 +1,5 @@
 PODS:
-  - TDWebService (0.1.5)
+  - TDWebService (0.1.6)
 
 DEPENDENCIES:
   - TDWebService (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TDWebService: 9a1abe08fc8660fdc2420fc5f13eea0ece0f0fbc
+  TDWebService: 8d51249a19802b635795e4b0c7684b903bf5a357
 
 PODFILE CHECKSUM: 96299c176da175bb6261bddb8038063294d63d56
 
