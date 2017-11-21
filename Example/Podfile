@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'TDWebService_Example' do
   pod 'TDWebService', :path => '../'
-  pod 'TDResult'
+  #pod 'TDResult'
   
   target 'TDWebService_Tests' do
     inherit! :search_paths
