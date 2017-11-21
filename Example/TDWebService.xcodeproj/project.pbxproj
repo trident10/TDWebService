@@ -352,10 +352,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TDWebService_Example/Pods-TDWebService_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TDResult/TDResult.framework",
 				"${BUILT_PRODUCTS_DIR}/TDWebService/TDWebService.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TDResult.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TDWebService.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
